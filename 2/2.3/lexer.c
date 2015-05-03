@@ -458,7 +458,7 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lexer.l"
+#line 1 "src/lexer.l"
 int fee_count = 0;
 int fie_count = 0;
 int foe_count = 0;
@@ -650,7 +650,7 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
     
-#line 5 "lexer.l"
+#line 5 "src/lexer.l"
 
 #line 656 "<stdout>"
 
@@ -737,38 +737,38 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 6 "lexer.l"
+#line 6 "src/lexer.l"
 fee_count++;
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 7 "lexer.l"
+#line 7 "src/lexer.l"
 fie_count++;
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 8 "lexer.l"
+#line 8 "src/lexer.l"
 foe_count++;
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 9 "lexer.l"
+#line 9 "src/lexer.l"
 fum_count++;
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 10 "lexer.l"
+#line 10 "src/lexer.l"
 
 	YY_BREAK
 case 6:
 /* rule 6 can match eol */
 YY_RULE_SETUP
-#line 11 "lexer.l"
+#line 11 "src/lexer.l"
 
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 12 "lexer.l"
+#line 12 "src/lexer.l"
 ECHO;
 	YY_BREAK
 #line 775 "<stdout>"
@@ -1769,4 +1769,4 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 12 "lexer.l"
+#line 12 "src/lexer.l"
