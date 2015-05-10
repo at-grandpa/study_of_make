@@ -1,0 +1,8 @@
+# 2.6 特殊ターゲット
+
+* 特殊ターゲット
+* .PHONY
+* .INTERMEDIATE
+* .SECONDARY
+* .PRECIOUS
+* .DELETE_ON_ERROR
